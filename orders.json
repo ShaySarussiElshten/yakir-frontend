@@ -1,0 +1,124 @@
+{
+  "orders": [
+      {
+          "id": 1,
+          "customerInformation": {
+              "name": "John Doe",
+              "address": "123 Main St",
+              "contactDetails": "123-456-7890"
+          },
+          "orderItems": [
+              {
+                  "productName": "Widget",
+                  "quantity": 2,
+                  "price": 9.99
+              },
+              {
+                  "productName": "Gadget",
+                  "quantity": 1,
+                  "price": 14.99
+              }
+          ],
+          "shippingDetails": {
+              "shippingAddress": "123 Main St",
+              "estimatedDeliveryDate": "2023-08-21"
+          },
+          "paymentDetails": {
+              "paymentMethod": "Credit Card",
+              "totalAmount": 34.97
+          }
+      },
+      {
+          "id": 2,
+          "customerInformation": {
+              "name": "Jane Smith",
+              "address": "456 Elm St",
+              "contactDetails": "987-654-3210"
+          },
+          "orderItems": [
+              {
+                  "productName": "Thingamajig",
+                  "quantity": 3,
+                  "price": 7.50
+              }
+          ],
+          "shippingDetails": {
+              "shippingAddress": "456 Elm St",
+              "estimatedDeliveryDate": "2023-08-20"
+          },
+          "paymentDetails": {
+              "paymentMethod": "PayPal",
+              "totalAmount": 22.50
+          }
+      },
+      {
+          "id": 3,
+          "customerInformation": {
+              "name": "James Brown",
+              "address": "789 Maple St",
+              "contactDetails": "555-111-2222"
+          },
+          "orderItems": [
+              {
+                  "productName": "Gizmo",
+                  "quantity": 4,
+                  "price": 4.99
+              }
+          ],
+          "shippingDetails": {
+              "shippingAddress": "789 Maple St",
+              "estimatedDeliveryDate": "2023-08-19"
+          },
+          "paymentDetails": {
+              "paymentMethod": "Debit Card",
+              "totalAmount": 19.96
+          }
+      },
+      {
+          "id": 4,
+          "customerInformation": {
+              "name": "Sara Jones",
+              "address": "159 Oak St",
+              "contactDetails": "333-444-5555"
+          },
+          "orderItems": [
+              {
+                  "productName": "Whatchamacallit",
+                  "quantity": 5,
+                  "price": 2.99
+              }
+          ],
+          "shippingDetails": {
+              "shippingAddress": "159 Oak St",
+              "estimatedDeliveryDate": "2023-08-18"
+          },
+          "paymentDetails": {
+              "paymentMethod": "Apple Pay",
+              "totalAmount": 14.95
+          }
+      },
+      {
+          "id": 5,
+          "customerInformation": {
+              "name": "Tom Smith",
+              "address": "951 Pine St",
+              "contactDetails": "444-333-2222"
+          },
+          "orderItems": [
+              {
+                  "productName": "Doohickey",
+                  "quantity": 6,
+                  "price": 3.50
+              }
+          ],
+          "shippingDetails": {
+              "shippingAddress": "951 Pine St",
+              "estimatedDeliveryDate": "2023-08-17"
+          },
+          "paymentDetails": {
+              "paymentMethod": "Cash",
+              "totalAmount": 21.00
+          }
+      }
+  ]
+}
